@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* width: 100vw; */
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/happy-birthday-congratulations-banner-design-with-confetti-balloons-and-glossy-glitter-ribbon-for-party-holiday-background-illustration-free-vector.webp);
+    background-size: cover;
+   
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 210px;
+}
+
+.box span{
+    font-size: 1.55rem;
+    font-family: cursive;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 5px 4px 5px dodgerblue;
+    gap: 5px;
+    margin: 5px;
+}
+.box h2{
+    font-size: 45px;
+    margin-left: 20px;
+    text-shadow: 5px 5px 5px black;
+    color: rgb(223, 220, 11);
+    font-family: sans-serif;
+}
+
+.name{
+    position: absolute;
+    margin-top: 41%;
+}
+.name h1{
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Lily Script One', cursive;
+    text-shadow: 5px 5px 5px gray;
+}
+.name h2{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+}
